@@ -13,14 +13,13 @@ class Home extends StatelessWidget {
       appBar: AppBar(
         title: Text('Lucky Tech Pro'),
         centerTitle: true,
-        backgroundColor: Colors.pink,
+        backgroundColor: Colors.redAccent,
       ),
-      body: Center(
-        child: IconButton(
-          onPressed: (){},
-          icon: Icon(Icons.alternate_email),
-          color: Colors.blue,
-        )
+      body:Container(
+        padding: EdgeInsets.fromLTRB(10, 20, 30, 40),
+        margin: EdgeInsets.all(30),
+        color: Colors.pink,
+        child: Text('Hello'),
       ),
       floatingActionButton: FloatingActionButton(
         onPressed:(){},
