@@ -17,7 +17,9 @@ class Home extends StatelessWidget {
       ),
       body: Center(
         child: FlatButton(
-          onPressed: (){},
+          onPressed: (){
+            print('Hello Lucky!');
+          },
           child: Text('click me'),
           color: Colors.pink,
         ),
