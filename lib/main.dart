@@ -16,7 +16,11 @@ class Home extends StatelessWidget {
         backgroundColor: Colors.pink,
       ),
       body: Center(
-        child: Image.asset('assets/b1.jpg'),
+        child: FlatButton(
+          onPressed: (){},
+          child: Text('click me'),
+          color: Colors.pink,
+        ),
       ),
       floatingActionButton: FloatingActionButton(
         onPressed:(){},
